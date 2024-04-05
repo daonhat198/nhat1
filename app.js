@@ -79,11 +79,10 @@ const html = `
             </div>
       
             </div>
-            <script>
+<script>
     document.getElementById("getVersionButton").addEventListener("click", function() {
-        alert("You have successfully subscribed! Please enter your information.");
-        // Redirect to the information entry page
-        window.location.href = "/information-entry";
+        // Hiển thị thông báo thành công
+        document.getElementById("successMessage").style.display = "block";
     });
 </script>
 </body>
