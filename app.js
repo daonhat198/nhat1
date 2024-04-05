@@ -79,6 +79,13 @@ const html = `
             </div>
       
             </div>
+            <script>
+    document.getElementById("getVersionButton").addEventListener("click", function() {
+        alert("You have successfully subscribed! Please enter your information.");
+        // Redirect to the information entry page
+        window.location.href = "/information-entry";
+    });
+</script>
 </body>
 </html>
 
