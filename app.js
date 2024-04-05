@@ -42,11 +42,13 @@ const html = `
         border: none;
         cursor: pointer;
         box-shadow: 10px 20px rgba(red);
-        transform: scale(1.1);
+        
     }
 
     .custom-button:hover {
         background-color: red;
+        color: white;
+        transform: scale(1.1);
     }
 
     .container {
