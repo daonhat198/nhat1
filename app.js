@@ -63,16 +63,20 @@ const html = `
 
 </style> 
 </head>
-<body>
-    <div class="container">
-        <h1>Don't miss this special offer!</h1>
-        <p>Get it now for just $10! The price will be increased after 50 downloads</p>
-        <div class="hello">
-            <p>
-                <a href="https://memart.vn/tin-tuc/blog1/huong-dan-unlock-bootloader-xiaomi-nhung-dieu-ban-can-biet-vi-cb.html" target="_blank" class="custom-button">Get the latest version of Bootslander</a>
-            </p>
-        </div>
-    </div>
+<body>           
+            <div class="container">
+                    
+        <h1> Don't miss this special offer!</h1>
+
+        <p> Get it now for just $10! the price will be increased after 50 downloads </p>
+            <div class="hello">
+                <p>
+                    <button type="submit" class="custom-button"> Get the latest version of Bootslander</button> 
+                </p>
+
+            </div>
+      
+            </div>
 </body>
 </html>
 
