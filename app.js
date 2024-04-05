@@ -61,6 +61,12 @@ const html = `
         justify-content: center;
     }
 
+    .success-message {
+        color: green;
+        font-weight: bold;
+        display: none; /* Ban đầu ẩn đi */
+    }
+
 </style> 
 </head>
 <body>       
@@ -73,19 +79,21 @@ const html = `
         <p> Get it now for just $10! the price will be increased after 50 downloads </p>
             <div class="hello">
                 <p>
-                    <button type="submit" class="custom-button"> Get the latest version of Bootslander</button> 
+                    <button type="submit" class="custom-button" id="getVersionButton"> Get the latest version of Bootslander</button> 
                 </p>
-
+                <p class="success-message" id="successMessage"></p> <!-- Phần tử hiển thị thông báo thành công -->
             </div>
       
             </div>
 <script>
     document.getElementById("getVersionButton").addEventListener("click", function() {
         // Hiển thị thông báo thành công
+        document.getElementById("successMessage").textContent = "You have successfully subscribed!";
         document.getElementById("successMessage").style.display = "block";
     });
 </script>
 </body>
 </html>
+
 
 `
